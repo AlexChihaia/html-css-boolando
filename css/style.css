@@ -204,3 +204,53 @@ MAIN
 /*
 FOOTER
 */
+
+
+footer {
+    height: 110px;
+    background-color: #1a1a1a;
+    color: white
+}
+
+.contenitore.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer.sinistra {
+    padding-top: 30px;
+}
+
+.footer.sinistra>div {
+    padding-top: 10px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+i {
+    color: white;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    font-size: 20px;
+}
+
+h4 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding-right: 5px;
+}
