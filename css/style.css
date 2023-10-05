@@ -56,12 +56,19 @@ COMMON
     top: 100px;
 }
 
-.container .first:hover {
-    z-index: 0;
-    transition-duration: 2s;
+.container .box-superiore:hover .first {
+    opacity: 0;
+
+    transition: opacity 1s linear;
 
 }
 
+/*
+.container .box-superiore:hover .second {
+    z-index: 1;
+    transition-duration: 2s;
+}
+*/
 .brand {
     font-size: 12px;
     padding-top: 10px;
