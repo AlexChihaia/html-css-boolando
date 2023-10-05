@@ -56,7 +56,7 @@ COMMON
     top: 100px;
 }
 
-.container .box-superiore:hover .first {
+.container .box-superiore .images:hover .first {
     opacity: 0;
 
     transition: opacity 1s linear;
