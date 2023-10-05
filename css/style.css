@@ -39,6 +39,11 @@ DEBUG
 /*
 COMMON
 */
+
+main {
+    padding-top: 100px;
+}
+
 .megacontainer {
     max-width: 1440px;
     margin: auto;
@@ -50,10 +55,6 @@ COMMON
 .container {
     width: calc(1460px / 3 - 20px);
     position: relative;
-}
-
-.container.main {
-    top: 100px;
 }
 
 .container .box-superiore .images:hover .first {
