@@ -52,6 +52,10 @@ COMMON
     position: relative;
 }
 
+.container.main {
+    top: 100px;
+}
+
 .container .first:hover {
     z-index: 0;
     transition-duration: 2s;
@@ -133,6 +137,7 @@ header {
     z-index: 99;
     width: 1920px;
     box-shadow: 2px 5px 5px #d3d3d3;
+
 }
 
 .logo {
@@ -212,7 +217,8 @@ FOOTER
 footer {
     height: 110px;
     background-color: #1a1a1a;
-    color: white
+    color: white;
+    margin-top: 150px;
 }
 
 .contenitore.footer {
